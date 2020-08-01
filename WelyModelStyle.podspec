@@ -13,7 +13,7 @@ s.summary      = "A nice three-party library for modal custom jumps supports ios
 s.homepage     = "https://github.com/yangweiyi/WelyModelStyle"
 s.license      = "MIT"
 s.author       = { "yangweiyi" => "3142107409@qq.com" }
-s.platform     = :ios, "9.0"
+s.platform     = :ios, "10.0"
 s.swift_version = "5.0"
 s.source       = { :git => "https://github.com/yangweiyi/WelyModelStyle.git", :tag => "#{s.version}"  }
 s.framework    = "UIKit"
