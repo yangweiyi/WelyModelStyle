@@ -1,0 +1,710 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3284BD9B22CC36A575669ECB /* Pods_WelyModelStyle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5864A3B7817295EEFBA74C63 /* Pods_WelyModelStyle.framework */; };
+		5E134F0B24D54725004DE219 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E134F0A24D54725004DE219 /* AppDelegate.swift */; };
+		5E134F0F24D54725004DE219 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E134F0E24D54725004DE219 /* ViewController.swift */; };
+		5E134F1224D54725004DE219 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E134F1024D54725004DE219 /* Main.storyboard */; };
+		5E134F1424D54727004DE219 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E134F1324D54727004DE219 /* Assets.xcassets */; };
+		5E134F1724D54727004DE219 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E134F1524D54727004DE219 /* LaunchScreen.storyboard */; };
+		5E134F2224D54727004DE219 /* WelyModelStyleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E134F2124D54727004DE219 /* WelyModelStyleTests.swift */; };
+		5E134F2D24D54727004DE219 /* WelyModelStyleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E134F2C24D54727004DE219 /* WelyModelStyleUITests.swift */; };
+		5E134F5424D54897004DE219 /* WelyPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E134F4A24D54897004DE219 /* WelyPresentationController.swift */; };
+		5E134F5524D54897004DE219 /* ShiftInAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E134F4B24D54897004DE219 /* ShiftInAnimator.swift */; };
+		5E134F5624D54897004DE219 /* FadeInAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E134F4C24D54897004DE219 /* FadeInAnimator.swift */; };
+		5E134F5724D54897004DE219 /* FadeInConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E134F4D24D54897004DE219 /* FadeInConfiguration.swift */; };
+		5E134F5824D54897004DE219 /* WelyBaseAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E134F4E24D54897004DE219 /* WelyBaseAnimator.swift */; };
+		5E134F5924D54897004DE219 /* WelyBaseConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E134F4F24D54897004DE219 /* WelyBaseConfiguration.swift */; };
+		5E134F5A24D54897004DE219 /* ShiftInConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E134F5024D54897004DE219 /* ShiftInConfiguration.swift */; };
+		5E134F5B24D54897004DE219 /* AnimatedTransitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E134F5124D54897004DE219 /* AnimatedTransitioning.swift */; };
+		5E134F5C24D54897004DE219 /* SlideInConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E134F5224D54897004DE219 /* SlideInConfiguration.swift */; };
+		5E134F5D24D54897004DE219 /* SlideInAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E134F5324D54897004DE219 /* SlideInAnimator.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5E134F1E24D54727004DE219 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E134EFF24D54725004DE219 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E134F0624D54725004DE219;
+			remoteInfo = WelyModelStyle;
+		};
+		5E134F2924D54727004DE219 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E134EFF24D54725004DE219 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E134F0624D54725004DE219;
+			remoteInfo = WelyModelStyle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		38416A8249236812B43CFA54 /* Pods-WelyModelStyle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WelyModelStyle.debug.xcconfig"; path = "Target Support Files/Pods-WelyModelStyle/Pods-WelyModelStyle.debug.xcconfig"; sourceTree = "<group>"; };
+		5864A3B7817295EEFBA74C63 /* Pods_WelyModelStyle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WelyModelStyle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E134F0724D54725004DE219 /* WelyModelStyle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WelyModelStyle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E134F0A24D54725004DE219 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5E134F0E24D54725004DE219 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5E134F1124D54725004DE219 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5E134F1324D54727004DE219 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5E134F1624D54727004DE219 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5E134F1824D54727004DE219 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E134F1D24D54727004DE219 /* WelyModelStyleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WelyModelStyleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E134F2124D54727004DE219 /* WelyModelStyleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelyModelStyleTests.swift; sourceTree = "<group>"; };
+		5E134F2324D54727004DE219 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E134F2824D54727004DE219 /* WelyModelStyleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WelyModelStyleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E134F2C24D54727004DE219 /* WelyModelStyleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelyModelStyleUITests.swift; sourceTree = "<group>"; };
+		5E134F2E24D54727004DE219 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E134F4A24D54897004DE219 /* WelyPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelyPresentationController.swift; sourceTree = "<group>"; };
+		5E134F4B24D54897004DE219 /* ShiftInAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShiftInAnimator.swift; sourceTree = "<group>"; };
+		5E134F4C24D54897004DE219 /* FadeInAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FadeInAnimator.swift; sourceTree = "<group>"; };
+		5E134F4D24D54897004DE219 /* FadeInConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FadeInConfiguration.swift; sourceTree = "<group>"; };
+		5E134F4E24D54897004DE219 /* WelyBaseAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelyBaseAnimator.swift; sourceTree = "<group>"; };
+		5E134F4F24D54897004DE219 /* WelyBaseConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelyBaseConfiguration.swift; sourceTree = "<group>"; };
+		5E134F5024D54897004DE219 /* ShiftInConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShiftInConfiguration.swift; sourceTree = "<group>"; };
+		5E134F5124D54897004DE219 /* AnimatedTransitioning.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedTransitioning.swift; sourceTree = "<group>"; };
+		5E134F5224D54897004DE219 /* SlideInConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideInConfiguration.swift; sourceTree = "<group>"; };
+		5E134F5324D54897004DE219 /* SlideInAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideInAnimator.swift; sourceTree = "<group>"; };
+		C33EE480BB80A411F8AF223A /* Pods-WelyModelStyle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WelyModelStyle.release.xcconfig"; path = "Target Support Files/Pods-WelyModelStyle/Pods-WelyModelStyle.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E134F0424D54725004DE219 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3284BD9B22CC36A575669ECB /* Pods_WelyModelStyle.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E134F1A24D54727004DE219 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E134F2524D54727004DE219 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A740332BB8B467A2634F4EC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				38416A8249236812B43CFA54 /* Pods-WelyModelStyle.debug.xcconfig */,
+				C33EE480BB80A411F8AF223A /* Pods-WelyModelStyle.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5E134EFE24D54725004DE219 = {
+			isa = PBXGroup;
+			children = (
+				5E134F0924D54725004DE219 /* WelyModelStyle */,
+				5E134F2024D54727004DE219 /* WelyModelStyleTests */,
+				5E134F2B24D54727004DE219 /* WelyModelStyleUITests */,
+				5E134F0824D54725004DE219 /* Products */,
+				3A740332BB8B467A2634F4EC /* Pods */,
+				CFDC383D2733FA6B52E747A3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5E134F0824D54725004DE219 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E134F0724D54725004DE219 /* WelyModelStyle.app */,
+				5E134F1D24D54727004DE219 /* WelyModelStyleTests.xctest */,
+				5E134F2824D54727004DE219 /* WelyModelStyleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E134F0924D54725004DE219 /* WelyModelStyle */ = {
+			isa = PBXGroup;
+			children = (
+				5E134F4924D54897004DE219 /* ModalStyle */,
+				5E134F0A24D54725004DE219 /* AppDelegate.swift */,
+				5E134F0E24D54725004DE219 /* ViewController.swift */,
+				5E134F1024D54725004DE219 /* Main.storyboard */,
+				5E134F1324D54727004DE219 /* Assets.xcassets */,
+				5E134F1524D54727004DE219 /* LaunchScreen.storyboard */,
+				5E134F1824D54727004DE219 /* Info.plist */,
+			);
+			path = WelyModelStyle;
+			sourceTree = "<group>";
+		};
+		5E134F2024D54727004DE219 /* WelyModelStyleTests */ = {
+			isa = PBXGroup;
+			children = (
+				5E134F2124D54727004DE219 /* WelyModelStyleTests.swift */,
+				5E134F2324D54727004DE219 /* Info.plist */,
+			);
+			path = WelyModelStyleTests;
+			sourceTree = "<group>";
+		};
+		5E134F2B24D54727004DE219 /* WelyModelStyleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5E134F2C24D54727004DE219 /* WelyModelStyleUITests.swift */,
+				5E134F2E24D54727004DE219 /* Info.plist */,
+			);
+			path = WelyModelStyleUITests;
+			sourceTree = "<group>";
+		};
+		5E134F4924D54897004DE219 /* ModalStyle */ = {
+			isa = PBXGroup;
+			children = (
+				5E134F4A24D54897004DE219 /* WelyPresentationController.swift */,
+				5E134F4B24D54897004DE219 /* ShiftInAnimator.swift */,
+				5E134F4C24D54897004DE219 /* FadeInAnimator.swift */,
+				5E134F4D24D54897004DE219 /* FadeInConfiguration.swift */,
+				5E134F4E24D54897004DE219 /* WelyBaseAnimator.swift */,
+				5E134F4F24D54897004DE219 /* WelyBaseConfiguration.swift */,
+				5E134F5024D54897004DE219 /* ShiftInConfiguration.swift */,
+				5E134F5124D54897004DE219 /* AnimatedTransitioning.swift */,
+				5E134F5224D54897004DE219 /* SlideInConfiguration.swift */,
+				5E134F5324D54897004DE219 /* SlideInAnimator.swift */,
+			);
+			path = ModalStyle;
+			sourceTree = "<group>";
+		};
+		CFDC383D2733FA6B52E747A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5864A3B7817295EEFBA74C63 /* Pods_WelyModelStyle.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E134F0624D54725004DE219 /* WelyModelStyle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E134F3124D54727004DE219 /* Build configuration list for PBXNativeTarget "WelyModelStyle" */;
+			buildPhases = (
+				6C180D9118C38C842A52BD38 /* [CP] Check Pods Manifest.lock */,
+				5E134F0324D54725004DE219 /* Sources */,
+				5E134F0424D54725004DE219 /* Frameworks */,
+				5E134F0524D54725004DE219 /* Resources */,
+				B5F5C5470078E6BA7BBCB9DC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WelyModelStyle;
+			productName = WelyModelStyle;
+			productReference = 5E134F0724D54725004DE219 /* WelyModelStyle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5E134F1C24D54727004DE219 /* WelyModelStyleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E134F3424D54727004DE219 /* Build configuration list for PBXNativeTarget "WelyModelStyleTests" */;
+			buildPhases = (
+				5E134F1924D54727004DE219 /* Sources */,
+				5E134F1A24D54727004DE219 /* Frameworks */,
+				5E134F1B24D54727004DE219 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E134F1F24D54727004DE219 /* PBXTargetDependency */,
+			);
+			name = WelyModelStyleTests;
+			productName = WelyModelStyleTests;
+			productReference = 5E134F1D24D54727004DE219 /* WelyModelStyleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5E134F2724D54727004DE219 /* WelyModelStyleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E134F3724D54727004DE219 /* Build configuration list for PBXNativeTarget "WelyModelStyleUITests" */;
+			buildPhases = (
+				5E134F2424D54727004DE219 /* Sources */,
+				5E134F2524D54727004DE219 /* Frameworks */,
+				5E134F2624D54727004DE219 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E134F2A24D54727004DE219 /* PBXTargetDependency */,
+			);
+			name = WelyModelStyleUITests;
+			productName = WelyModelStyleUITests;
+			productReference = 5E134F2824D54727004DE219 /* WelyModelStyleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E134EFF24D54725004DE219 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = wely;
+				TargetAttributes = {
+					5E134F0624D54725004DE219 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					5E134F1C24D54727004DE219 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 5E134F0624D54725004DE219;
+					};
+					5E134F2724D54727004DE219 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 5E134F0624D54725004DE219;
+					};
+				};
+			};
+			buildConfigurationList = 5E134F0224D54725004DE219 /* Build configuration list for PBXProject "WelyModelStyle" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5E134EFE24D54725004DE219;
+			productRefGroup = 5E134F0824D54725004DE219 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E134F0624D54725004DE219 /* WelyModelStyle */,
+				5E134F1C24D54727004DE219 /* WelyModelStyleTests */,
+				5E134F2724D54727004DE219 /* WelyModelStyleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E134F0524D54725004DE219 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E134F1724D54727004DE219 /* LaunchScreen.storyboard in Resources */,
+				5E134F1424D54727004DE219 /* Assets.xcassets in Resources */,
+				5E134F1224D54725004DE219 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E134F1B24D54727004DE219 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E134F2624D54727004DE219 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6C180D9118C38C842A52BD38 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WelyModelStyle-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5F5C5470078E6BA7BBCB9DC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WelyModelStyle/Pods-WelyModelStyle-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WelyModelStyle/Pods-WelyModelStyle-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WelyModelStyle/Pods-WelyModelStyle-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E134F0324D54725004DE219 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E134F5B24D54897004DE219 /* AnimatedTransitioning.swift in Sources */,
+				5E134F5824D54897004DE219 /* WelyBaseAnimator.swift in Sources */,
+				5E134F5424D54897004DE219 /* WelyPresentationController.swift in Sources */,
+				5E134F5A24D54897004DE219 /* ShiftInConfiguration.swift in Sources */,
+				5E134F0F24D54725004DE219 /* ViewController.swift in Sources */,
+				5E134F5C24D54897004DE219 /* SlideInConfiguration.swift in Sources */,
+				5E134F5924D54897004DE219 /* WelyBaseConfiguration.swift in Sources */,
+				5E134F5724D54897004DE219 /* FadeInConfiguration.swift in Sources */,
+				5E134F5D24D54897004DE219 /* SlideInAnimator.swift in Sources */,
+				5E134F0B24D54725004DE219 /* AppDelegate.swift in Sources */,
+				5E134F5524D54897004DE219 /* ShiftInAnimator.swift in Sources */,
+				5E134F5624D54897004DE219 /* FadeInAnimator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E134F1924D54727004DE219 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E134F2224D54727004DE219 /* WelyModelStyleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E134F2424D54727004DE219 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E134F2D24D54727004DE219 /* WelyModelStyleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5E134F1F24D54727004DE219 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E134F0624D54725004DE219 /* WelyModelStyle */;
+			targetProxy = 5E134F1E24D54727004DE219 /* PBXContainerItemProxy */;
+		};
+		5E134F2A24D54727004DE219 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E134F0624D54725004DE219 /* WelyModelStyle */;
+			targetProxy = 5E134F2924D54727004DE219 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5E134F1024D54725004DE219 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E134F1124D54725004DE219 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5E134F1524D54727004DE219 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E134F1624D54727004DE219 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5E134F2F24D54727004DE219 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5E134F3024D54727004DE219 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E134F3224D54727004DE219 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38416A8249236812B43CFA54 /* Pods-WelyModelStyle.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q226EAUD33;
+				INFOPLIST_FILE = WelyModelStyle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.modelStyle.WelyModelStyle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5E134F3324D54727004DE219 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C33EE480BB80A411F8AF223A /* Pods-WelyModelStyle.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q226EAUD33;
+				INFOPLIST_FILE = WelyModelStyle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.modelStyle.WelyModelStyle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5E134F3524D54727004DE219 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q226EAUD33;
+				INFOPLIST_FILE = WelyModelStyleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.modelStyle.WelyModelStyleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WelyModelStyle.app/WelyModelStyle";
+			};
+			name = Debug;
+		};
+		5E134F3624D54727004DE219 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q226EAUD33;
+				INFOPLIST_FILE = WelyModelStyleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.modelStyle.WelyModelStyleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WelyModelStyle.app/WelyModelStyle";
+			};
+			name = Release;
+		};
+		5E134F3824D54727004DE219 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q226EAUD33;
+				INFOPLIST_FILE = WelyModelStyleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.modelStyle.WelyModelStyleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WelyModelStyle;
+			};
+			name = Debug;
+		};
+		5E134F3924D54727004DE219 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q226EAUD33;
+				INFOPLIST_FILE = WelyModelStyleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.modelStyle.WelyModelStyleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WelyModelStyle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E134F0224D54725004DE219 /* Build configuration list for PBXProject "WelyModelStyle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E134F2F24D54727004DE219 /* Debug */,
+				5E134F3024D54727004DE219 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E134F3124D54727004DE219 /* Build configuration list for PBXNativeTarget "WelyModelStyle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E134F3224D54727004DE219 /* Debug */,
+				5E134F3324D54727004DE219 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E134F3424D54727004DE219 /* Build configuration list for PBXNativeTarget "WelyModelStyleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E134F3524D54727004DE219 /* Debug */,
+				5E134F3624D54727004DE219 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E134F3724D54727004DE219 /* Build configuration list for PBXNativeTarget "WelyModelStyleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E134F3824D54727004DE219 /* Debug */,
+				5E134F3924D54727004DE219 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5E134EFF24D54725004DE219 /* Project object */;
+}
