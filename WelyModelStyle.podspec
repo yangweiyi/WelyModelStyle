@@ -16,7 +16,7 @@ s.author       = { "yangweiyi" => "3142107409@qq.com" }
 s.platform     = :ios, "10.0"
 s.swift_version = "5.0"
 s.source       = { :git => "https://github.com/yangweiyi/WelyModelStyle.git", :tag => "#{s.version}"  }
-s.framework    = "UIKit"
+s.framework    = "UIKit","Foundation"
 s.source_files  = "WelyModelStyle/ModalStyle", "ModalStyle/*.{swift}"
 s.requires_arc = true
 s.dependency 'SnapKit'
