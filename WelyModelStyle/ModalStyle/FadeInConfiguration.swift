@@ -34,6 +34,8 @@ public struct FadeInConfiguration:WelyBaseConfiguration,HorizontalAndPortraitTyp
     public var hightForVC: WelyConstants.ContainsSize = .halfScreen
     
     public var marginGuards: UIEdgeInsets = .zero
+
+    public init(){}
     
 }
 

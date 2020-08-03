@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class SlideInAnimator: NSObject {
+public class SlideInAnimator: NSObject {
 
     let  direction:WelyConstants.Direction
     let  presentationType: WelyConstants.PresentationType
@@ -22,11 +22,11 @@ class SlideInAnimator: NSObject {
     }
 }
 extension SlideInAnimator: UIViewControllerAnimatedTransitioning {
-    func transitionDuration(using transitionContext: UIViewControllerContextTransitioning?) -> TimeInterval {
+    public func transitionDuration(using transitionContext: UIViewControllerContextTransitioning?) -> TimeInterval {
         return  baseCong.duration.rawValue
     }
     
-    func animateTransition(using transitionContext: UIViewControllerContextTransitioning) {
+    public func animateTransition(using transitionContext: UIViewControllerContextTransitioning) {
         let  presentedKey = getPresentkeyForPresentationType(type: self.presentationType)
         let isPresentation = (presentedKey == .to)
         

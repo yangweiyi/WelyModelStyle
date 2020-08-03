@@ -9,13 +9,13 @@
 import Foundation
 import UIKit
 
-class ShiftInAnimator: NSObject {
+public class ShiftInAnimator: NSObject {
     
     let direction: WelyConstants.Direction
     let presentationType: WelyConstants.PresentationType
     let baseCong: ShiftInConfiguration
     
-    init(baseDirection: WelyConstants.Direction, basePresentationType: WelyConstants.PresentationType, cong: ShiftInConfiguration) {
+   public init(baseDirection: WelyConstants.Direction, basePresentationType: WelyConstants.PresentationType, cong: ShiftInConfiguration) {
         self.direction = baseDirection
         self.presentationType = basePresentationType
         self.baseCong  =  cong
@@ -25,10 +25,11 @@ class ShiftInAnimator: NSObject {
 
 extension ShiftInAnimator:UIViewControllerAnimatedTransitioning {
     
-    func transitionDuration(using transitionContext: UIViewControllerContextTransitioning?) -> TimeInterval {
+   public func transitionDuration(using transitionContext: UIViewControllerContextTransitioning?) -> TimeInterval {
         return baseCong.duration.rawValue
     }
-    func animateTransition(using transitionContext: UIViewControllerContextTransitioning) {
+
+   public func animateTransition(using transitionContext: UIViewControllerContextTransitioning) {
         let  presentedKey = getPresentkeyForPresentationType(type: self.presentationType)
         let underlyingKey = getUnderlyingKeyForPresentationType(type: self.presentationType)
         let isPresentation = (presentedKey == .to)

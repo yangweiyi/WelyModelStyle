@@ -9,11 +9,11 @@
 import Foundation
 import UIKit
 
-class FadeInAnimator: NSObject {
+public class FadeInAnimator: NSObject {
     let presentationType: WelyConstants.PresentationType
     let  baseCong: FadeInConfiguration
     
-    init(basePresentationType: WelyConstants.PresentationType, cong: FadeInConfiguration) {
+   public init(basePresentationType: WelyConstants.PresentationType, cong: FadeInConfiguration) {
         self.presentationType = basePresentationType
         self.baseCong = cong
         super.init()
@@ -22,11 +22,11 @@ class FadeInAnimator: NSObject {
 
 extension FadeInAnimator:UIViewControllerAnimatedTransitioning {
     
-    func transitionDuration(using transitionContext: UIViewControllerContextTransitioning?) -> TimeInterval {
+    public func transitionDuration(using transitionContext: UIViewControllerContextTransitioning?) -> TimeInterval {
         return baseCong.duration.rawValue
     }
     
-    func animateTransition(using transitionContext: UIViewControllerContextTransitioning) {
+    public func animateTransition(using transitionContext: UIViewControllerContextTransitioning) {
         // 慢慢淡出 是修改的  alpha
         let  presentedKey = getPresentkeyForPresentationType(type: self.presentationType)
         let isPresentation = (presentedKey == .to)

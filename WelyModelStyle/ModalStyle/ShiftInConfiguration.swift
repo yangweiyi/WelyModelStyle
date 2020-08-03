@@ -31,7 +31,8 @@ public struct ShiftInConfiguration:WelyBaseConfiguration{
     public var size:WelyConstants.ContainsSize = .halfScreen
     // 动画  阻尼
     public var animationCeffion:WelyConstants.Animationness = .none
-    
+
+    public init(){}
 }
 
 

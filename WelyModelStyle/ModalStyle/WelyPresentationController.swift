@@ -20,17 +20,10 @@ class WelyPresentationController: UIPresentationController {
 
     // 初始化  增加自定义参数
     init(presentedViewController: UIViewController, presenting presentingViewController: UIViewController?, baseConfig: WelyBaseConfiguration) {
-
         self.baseCong = baseConfig
-
         super.init(presentedViewController: presentedViewController, presenting: presentingViewController)
-
         presentedViewController.view.layer.masksToBounds = true
-        //        presentedViewController.view.roundCorners(corners: <#T##UIRectCorner#>, radius: T##Double)
-
-
     }
-
     // 视图将要显示
     override func presentationTransitionWillBegin() {
         switch self.baseCong.backgroudStlye {

@@ -166,15 +166,15 @@
 			isa = PBXGroup;
 			children = (
 				5E134F4A24D54897004DE219 /* WelyPresentationController.swift */,
+				5E134F4E24D54897004DE219 /* WelyBaseAnimator.swift */,
 				5E134F4B24D54897004DE219 /* ShiftInAnimator.swift */,
 				5E134F4C24D54897004DE219 /* FadeInAnimator.swift */,
+				5E134F5324D54897004DE219 /* SlideInAnimator.swift */,
 				5E134F4D24D54897004DE219 /* FadeInConfiguration.swift */,
-				5E134F4E24D54897004DE219 /* WelyBaseAnimator.swift */,
 				5E134F4F24D54897004DE219 /* WelyBaseConfiguration.swift */,
 				5E134F5024D54897004DE219 /* ShiftInConfiguration.swift */,
 				5E134F5124D54897004DE219 /* AnimatedTransitioning.swift */,
 				5E134F5224D54897004DE219 /* SlideInConfiguration.swift */,
-				5E134F5324D54897004DE219 /* SlideInAnimator.swift */,
 			);
 			path = ModalStyle;
 			sourceTree = "<group>";

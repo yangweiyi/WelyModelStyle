@@ -41,5 +41,7 @@ public struct SlideInConfiguration:WelyBaseConfiguration,HorizontalAndPortraitTy
     public var directionDimiss:WelyConstants.Direction = .bottom
     // 动画  阻尼
     public var animationCeffion:WelyConstants.Animationness = .none
+
+    public init(){}
     
 }
