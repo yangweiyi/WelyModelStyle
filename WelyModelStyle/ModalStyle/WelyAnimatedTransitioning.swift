@@ -19,7 +19,6 @@ public extension UIViewControllerAnimatedTransitioning{
             return .from
         }
     }
-    
     // 底部VC的key
     func getUnderlyingKeyForPresentationType(type:WelyConstants.PresentationType) -> UITransitionContextViewControllerKey {
         switch type {

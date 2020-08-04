@@ -22,9 +22,10 @@
 		5E134F5824D54897004DE219 /* WelyBaseAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E134F4E24D54897004DE219 /* WelyBaseAnimator.swift */; };
 		5E134F5924D54897004DE219 /* WelyBaseConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E134F4F24D54897004DE219 /* WelyBaseConfiguration.swift */; };
 		5E134F5A24D54897004DE219 /* ShiftInConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E134F5024D54897004DE219 /* ShiftInConfiguration.swift */; };
-		5E134F5B24D54897004DE219 /* AnimatedTransitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E134F5124D54897004DE219 /* AnimatedTransitioning.swift */; };
+		5E134F5B24D54897004DE219 /* WelyAnimatedTransitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E134F5124D54897004DE219 /* WelyAnimatedTransitioning.swift */; };
 		5E134F5C24D54897004DE219 /* SlideInConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E134F5224D54897004DE219 /* SlideInConfiguration.swift */; };
 		5E134F5D24D54897004DE219 /* SlideInAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E134F5324D54897004DE219 /* SlideInAnimator.swift */; };
+		5E83EE1124D959E300291B9D /* PullToDismissAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E83EE1024D959E300291B9D /* PullToDismissAnimator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,9 +68,10 @@
 		5E134F4E24D54897004DE219 /* WelyBaseAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelyBaseAnimator.swift; sourceTree = "<group>"; };
 		5E134F4F24D54897004DE219 /* WelyBaseConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelyBaseConfiguration.swift; sourceTree = "<group>"; };
 		5E134F5024D54897004DE219 /* ShiftInConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShiftInConfiguration.swift; sourceTree = "<group>"; };
-		5E134F5124D54897004DE219 /* AnimatedTransitioning.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedTransitioning.swift; sourceTree = "<group>"; };
+		5E134F5124D54897004DE219 /* WelyAnimatedTransitioning.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelyAnimatedTransitioning.swift; sourceTree = "<group>"; };
 		5E134F5224D54897004DE219 /* SlideInConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideInConfiguration.swift; sourceTree = "<group>"; };
 		5E134F5324D54897004DE219 /* SlideInAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideInAnimator.swift; sourceTree = "<group>"; };
+		5E83EE1024D959E300291B9D /* PullToDismissAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PullToDismissAnimator.swift; sourceTree = "<group>"; };
 		C33EE480BB80A411F8AF223A /* Pods-WelyModelStyle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WelyModelStyle.release.xcconfig"; path = "Target Support Files/Pods-WelyModelStyle/Pods-WelyModelStyle.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -168,13 +170,14 @@
 				5E134F4A24D54897004DE219 /* WelyPresentationController.swift */,
 				5E134F4E24D54897004DE219 /* WelyBaseAnimator.swift */,
 				5E134F4B24D54897004DE219 /* ShiftInAnimator.swift */,
-				5E134F4C24D54897004DE219 /* FadeInAnimator.swift */,
-				5E134F5324D54897004DE219 /* SlideInAnimator.swift */,
-				5E134F4D24D54897004DE219 /* FadeInConfiguration.swift */,
-				5E134F4F24D54897004DE219 /* WelyBaseConfiguration.swift */,
 				5E134F5024D54897004DE219 /* ShiftInConfiguration.swift */,
-				5E134F5124D54897004DE219 /* AnimatedTransitioning.swift */,
+				5E134F4C24D54897004DE219 /* FadeInAnimator.swift */,
+				5E134F4D24D54897004DE219 /* FadeInConfiguration.swift */,
+				5E134F5324D54897004DE219 /* SlideInAnimator.swift */,
 				5E134F5224D54897004DE219 /* SlideInConfiguration.swift */,
+				5E83EE1024D959E300291B9D /* PullToDismissAnimator.swift */,
+				5E134F4F24D54897004DE219 /* WelyBaseConfiguration.swift */,
+				5E134F5124D54897004DE219 /* WelyAnimatedTransitioning.swift */,
 			);
 			path = ModalStyle;
 			sourceTree = "<group>";
@@ -362,11 +365,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E134F5B24D54897004DE219 /* AnimatedTransitioning.swift in Sources */,
+				5E134F5B24D54897004DE219 /* WelyAnimatedTransitioning.swift in Sources */,
 				5E134F5824D54897004DE219 /* WelyBaseAnimator.swift in Sources */,
 				5E134F5424D54897004DE219 /* WelyPresentationController.swift in Sources */,
 				5E134F5A24D54897004DE219 /* ShiftInConfiguration.swift in Sources */,
 				5E134F0F24D54725004DE219 /* ViewController.swift in Sources */,
+				5E83EE1124D959E300291B9D /* PullToDismissAnimator.swift in Sources */,
 				5E134F5C24D54897004DE219 /* SlideInConfiguration.swift in Sources */,
 				5E134F5924D54897004DE219 /* WelyBaseConfiguration.swift in Sources */,
 				5E134F5724D54897004DE219 /* FadeInConfiguration.swift in Sources */,

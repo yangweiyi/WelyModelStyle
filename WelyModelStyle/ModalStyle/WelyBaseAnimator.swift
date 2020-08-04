@@ -22,11 +22,12 @@ class WelyBaseAnimator: NSObject {
         currentViewController.transitioningDelegate = self
     }
 }
+
 extension WelyBaseAnimator: UIViewControllerTransitioningDelegate {
     // ios  10.0  使用  暂不使用
     //    public func interactionControllerForPresentation(using animator: UIViewControllerAnimatedTransitioning) -> UIViewControllerInteractiveTransitioning? {
     //    }
-
+    
     //     如果模态方式是自定义的  且设置了transitionDelegate  则从UIKit 调用
     func presentationController(forPresented presented: UIViewController, presenting: UIViewController?, source: UIViewController) -> UIPresentationController? {
         let baseVc = WelyPresentationController(presentedViewController: presented, presenting: presenting, baseConfig: self.baseConfiguration)
@@ -58,5 +59,5 @@ extension WelyBaseAnimator: UIViewControllerTransitioningDelegate {
                 return nil
             }
     }
-
+    
 }
