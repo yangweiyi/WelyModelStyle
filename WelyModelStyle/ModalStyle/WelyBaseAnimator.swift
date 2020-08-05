@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class WelyBaseAnimator: NSObject {
+public class WelyBaseAnimator: NSObject {
     fileprivate var baseConfiguration: WelyBaseConfiguration
 
     public init(baseCong: WelyBaseConfiguration) {
@@ -29,12 +29,12 @@ extension WelyBaseAnimator: UIViewControllerTransitioningDelegate {
     //    }
     
     //     如果模态方式是自定义的  且设置了transitionDelegate  则从UIKit 调用
-    func presentationController(forPresented presented: UIViewController, presenting: UIViewController?, source: UIViewController) -> UIPresentationController? {
+    public func presentationController(forPresented presented: UIViewController, presenting: UIViewController?, source: UIViewController) -> UIPresentationController? {
         let baseVc = WelyPresentationController(presentedViewController: presented, presenting: presenting, baseConfig: self.baseConfiguration)
         return baseVc
     }
     // 模态弹出
-    func animationController(forPresented presented: UIViewController, presenting: UIViewController, source: UIViewController) -> UIViewControllerAnimatedTransitioning? {
+    public func animationController(forPresented presented: UIViewController, presenting: UIViewController, source: UIViewController) -> UIViewControllerAnimatedTransitioning? {
         if let slideInCong = baseConfiguration as? SlideInConfiguration {
             return SlideInAnimator(baseDirection: slideInCong.directionShow, basePresentaionType: .show, cong: slideInCong)
         } else if let fadeInCong = baseConfiguration as? FadeInConfiguration {
@@ -47,7 +47,7 @@ extension WelyBaseAnimator: UIViewControllerTransitioningDelegate {
     }
 
     // 模态dismiss
-    func animationController(forDismissed dismissed: UIViewController)
+    public func animationController(forDismissed dismissed: UIViewController)
         -> UIViewControllerAnimatedTransitioning? {
             if let slideInCong = baseConfiguration as? SlideInConfiguration {
                 return SlideInAnimator(baseDirection: slideInCong.directionDimiss, basePresentaionType: .dismiss, cong: slideInCong)
@@ -59,5 +59,11 @@ extension WelyBaseAnimator: UIViewControllerTransitioningDelegate {
                 return nil
             }
     }
+    // 弹出动画
+//    public func interactionControllerForPresentation(using animator: UIViewControllerAnimatedTransitioning) -> UIViewControllerInteractiveTransitioning? {
+//        return nil
+//    }
+
+    
     
 }
