@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
 s.name         = "WelyModelStyle"
-s.version = "0.0.2"
+s.version = "0.0.3"
 s.summary      = "A nice three-party library for modal custom jumps supports ios9+ in Swift"
 s.homepage     = "https://github.com/yangweiyi/WelyModelStyle"
 s.license      = "MIT"
