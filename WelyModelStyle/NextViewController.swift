@@ -12,38 +12,36 @@ class NextViewController: UIViewController {
 
     private  var pullToDismissInteractive:PullToDismissInteractive!
 
+    lazy var dismissButton: UIButton = {
+        let disBtn =  UIButton(type: .custom)
+        disBtn.setTitle("dismiss", for: .normal)
+        disBtn.setTitleColor(.black, for: .normal)
+        disBtn.addTarget(self, action: #selector(dismissFunc), for: .touchUpInside)
+        return disBtn
+    }()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = .white
-        transitioningDelegate = self
-        pullToDismissInteractive = PullToDismissInteractive(self, self.view)
+        self.view.addSubview(dismissButton)
+
+//        self.transitioningDelegate = self
+//        pullToDismissInteractive = PullToDismissInteractive(self, self.view)
+        dismissButton.snp.makeConstraints { (maker) in
+            maker.center.equalToSuperview()
+            maker.width.equalTo(200)
+            maker.height.equalTo(50)
+        }
+
     }
 
+    @objc func dismissFunc(){
+        self.dismiss(animated: true, completion: nil)
+    }
     deinit {
-
         debugPrint("页面销毁")
     }
-
 }
 
-extension NextViewController:UIViewControllerTransitioningDelegate{
-    func interactionControllerForDismissal(using animator: UIViewControllerAnimatedTransitioning) -> UIViewControllerInteractiveTransitioning? {
-        return pullToDismissInteractive
-    }
-    
-    func animationController(forPresented presented: UIViewController, presenting: UIViewController, source: UIViewController) -> UIViewControllerAnimatedTransitioning? {
-        return PresentAndDismissTransition(false)
-    }
-
-    func animationController(forDismissed dismissed: UIViewController) -> UIViewControllerAnimatedTransitioning? {
-        return PresentAndDismissTransition(true)
-    }
-
-    func interactionControllerForPresentation(using animator: UIViewControllerAnimatedTransitioning) -> UIViewControllerInteractiveTransitioning? {
-
-        return nil
-    }
-
-}
 
 

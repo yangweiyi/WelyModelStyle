@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 
 
-public struct SlideInConfiguration:WelyBaseConfiguration,HorizontalAndPortraitType,DefinitionVcFrame{
+public struct SlideInConfiguration:BaseConfiguration,HorizontalAndPortraitType,DefinitionVcFrame{
     
     public var duration: WelyConstants.Duration = .normal
     

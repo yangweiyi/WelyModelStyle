@@ -15,21 +15,20 @@
 		5E134F1724D54727004DE219 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E134F1524D54727004DE219 /* LaunchScreen.storyboard */; };
 		5E134F2224D54727004DE219 /* WelyModelStyleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E134F2124D54727004DE219 /* WelyModelStyleTests.swift */; };
 		5E134F2D24D54727004DE219 /* WelyModelStyleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E134F2C24D54727004DE219 /* WelyModelStyleUITests.swift */; };
-		5E134F5424D54897004DE219 /* WelyPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E134F4A24D54897004DE219 /* WelyPresentationController.swift */; };
+		5E134F5424D54897004DE219 /* PresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E134F4A24D54897004DE219 /* PresentationController.swift */; };
 		5E134F5524D54897004DE219 /* ShiftInAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E134F4B24D54897004DE219 /* ShiftInAnimator.swift */; };
 		5E134F5624D54897004DE219 /* FadeInAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E134F4C24D54897004DE219 /* FadeInAnimator.swift */; };
 		5E134F5724D54897004DE219 /* FadeInConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E134F4D24D54897004DE219 /* FadeInConfiguration.swift */; };
-		5E134F5824D54897004DE219 /* WelyBaseAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E134F4E24D54897004DE219 /* WelyBaseAnimator.swift */; };
-		5E134F5924D54897004DE219 /* WelyBaseConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E134F4F24D54897004DE219 /* WelyBaseConfiguration.swift */; };
+		5E134F5824D54897004DE219 /* BaseAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E134F4E24D54897004DE219 /* BaseAnimator.swift */; };
+		5E134F5924D54897004DE219 /* BaseConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E134F4F24D54897004DE219 /* BaseConfiguration.swift */; };
 		5E134F5A24D54897004DE219 /* ShiftInConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E134F5024D54897004DE219 /* ShiftInConfiguration.swift */; };
-		5E134F5B24D54897004DE219 /* WelyAnimatedTransitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E134F5124D54897004DE219 /* WelyAnimatedTransitioning.swift */; };
+		5E134F5B24D54897004DE219 /* AnimatedTransitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E134F5124D54897004DE219 /* AnimatedTransitioning.swift */; };
 		5E134F5C24D54897004DE219 /* SlideInConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E134F5224D54897004DE219 /* SlideInConfiguration.swift */; };
 		5E134F5D24D54897004DE219 /* SlideInAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E134F5324D54897004DE219 /* SlideInAnimator.swift */; };
+		5E34ADEC24DB9DA000104BED /* PullToDismissInteractive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E34ADEB24DB9DA000104BED /* PullToDismissInteractive.swift */; };
 		5E83EE1124D959E300291B9D /* PullToDismissAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E83EE1024D959E300291B9D /* PullToDismissAnimator.swift */; };
 		5EE1CA2C24DA39C700DFFEE4 /* PullToDismissConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE1CA2B24DA39C700DFFEE4 /* PullToDismissConfiguration.swift */; };
 		5EE1CA2E24DA3FA300DFFEE4 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE1CA2D24DA3FA300DFFEE4 /* NextViewController.swift */; };
-		5EE1CA3B24DAB1AB00DFFEE4 /* PresentAndDismissTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE1CA3924DAB1AB00DFFEE4 /* PresentAndDismissTransition.swift */; };
-		5EE1CA3C24DAB1AB00DFFEE4 /* PullToDismissInteractive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE1CA3A24DAB1AB00DFFEE4 /* PullToDismissInteractive.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,21 +64,20 @@
 		5E134F2824D54727004DE219 /* WelyModelStyleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WelyModelStyleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E134F2C24D54727004DE219 /* WelyModelStyleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelyModelStyleUITests.swift; sourceTree = "<group>"; };
 		5E134F2E24D54727004DE219 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5E134F4A24D54897004DE219 /* WelyPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelyPresentationController.swift; sourceTree = "<group>"; };
+		5E134F4A24D54897004DE219 /* PresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentationController.swift; sourceTree = "<group>"; };
 		5E134F4B24D54897004DE219 /* ShiftInAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShiftInAnimator.swift; sourceTree = "<group>"; };
 		5E134F4C24D54897004DE219 /* FadeInAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FadeInAnimator.swift; sourceTree = "<group>"; };
 		5E134F4D24D54897004DE219 /* FadeInConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FadeInConfiguration.swift; sourceTree = "<group>"; };
-		5E134F4E24D54897004DE219 /* WelyBaseAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelyBaseAnimator.swift; sourceTree = "<group>"; };
-		5E134F4F24D54897004DE219 /* WelyBaseConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelyBaseConfiguration.swift; sourceTree = "<group>"; };
+		5E134F4E24D54897004DE219 /* BaseAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseAnimator.swift; sourceTree = "<group>"; };
+		5E134F4F24D54897004DE219 /* BaseConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseConfiguration.swift; sourceTree = "<group>"; };
 		5E134F5024D54897004DE219 /* ShiftInConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShiftInConfiguration.swift; sourceTree = "<group>"; };
-		5E134F5124D54897004DE219 /* WelyAnimatedTransitioning.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelyAnimatedTransitioning.swift; sourceTree = "<group>"; };
+		5E134F5124D54897004DE219 /* AnimatedTransitioning.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedTransitioning.swift; sourceTree = "<group>"; };
 		5E134F5224D54897004DE219 /* SlideInConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideInConfiguration.swift; sourceTree = "<group>"; };
 		5E134F5324D54897004DE219 /* SlideInAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideInAnimator.swift; sourceTree = "<group>"; };
+		5E34ADEB24DB9DA000104BED /* PullToDismissInteractive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PullToDismissInteractive.swift; sourceTree = "<group>"; };
 		5E83EE1024D959E300291B9D /* PullToDismissAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PullToDismissAnimator.swift; sourceTree = "<group>"; };
 		5EE1CA2B24DA39C700DFFEE4 /* PullToDismissConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PullToDismissConfiguration.swift; sourceTree = "<group>"; };
 		5EE1CA2D24DA3FA300DFFEE4 /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
-		5EE1CA3924DAB1AB00DFFEE4 /* PresentAndDismissTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentAndDismissTransition.swift; sourceTree = "<group>"; };
-		5EE1CA3A24DAB1AB00DFFEE4 /* PullToDismissInteractive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PullToDismissInteractive.swift; sourceTree = "<group>"; };
 		C33EE480BB80A411F8AF223A /* Pods-WelyModelStyle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WelyModelStyle.release.xcconfig"; path = "Target Support Files/Pods-WelyModelStyle/Pods-WelyModelStyle.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -143,8 +141,6 @@
 		5E134F0924D54725004DE219 /* WelyModelStyle */ = {
 			isa = PBXGroup;
 			children = (
-				5EE1CA3924DAB1AB00DFFEE4 /* PresentAndDismissTransition.swift */,
-				5EE1CA3A24DAB1AB00DFFEE4 /* PullToDismissInteractive.swift */,
 				5E134F4924D54897004DE219 /* ModalStyle */,
 				5E134F0A24D54725004DE219 /* AppDelegate.swift */,
 				5E134F0E24D54725004DE219 /* ViewController.swift */,
@@ -178,8 +174,8 @@
 		5E134F4924D54897004DE219 /* ModalStyle */ = {
 			isa = PBXGroup;
 			children = (
-				5E134F4A24D54897004DE219 /* WelyPresentationController.swift */,
-				5E134F4E24D54897004DE219 /* WelyBaseAnimator.swift */,
+				5E134F4A24D54897004DE219 /* PresentationController.swift */,
+				5E134F4E24D54897004DE219 /* BaseAnimator.swift */,
 				5E134F4B24D54897004DE219 /* ShiftInAnimator.swift */,
 				5E134F5024D54897004DE219 /* ShiftInConfiguration.swift */,
 				5E134F4C24D54897004DE219 /* FadeInAnimator.swift */,
@@ -187,9 +183,10 @@
 				5E134F5324D54897004DE219 /* SlideInAnimator.swift */,
 				5E134F5224D54897004DE219 /* SlideInConfiguration.swift */,
 				5E83EE1024D959E300291B9D /* PullToDismissAnimator.swift */,
+				5E34ADEB24DB9DA000104BED /* PullToDismissInteractive.swift */,
 				5EE1CA2B24DA39C700DFFEE4 /* PullToDismissConfiguration.swift */,
-				5E134F4F24D54897004DE219 /* WelyBaseConfiguration.swift */,
-				5E134F5124D54897004DE219 /* WelyAnimatedTransitioning.swift */,
+				5E134F4F24D54897004DE219 /* BaseConfiguration.swift */,
+				5E134F5124D54897004DE219 /* AnimatedTransitioning.swift */,
 			);
 			path = ModalStyle;
 			sourceTree = "<group>";
@@ -378,16 +375,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				5EE1CA2C24DA39C700DFFEE4 /* PullToDismissConfiguration.swift in Sources */,
-				5EE1CA3C24DAB1AB00DFFEE4 /* PullToDismissInteractive.swift in Sources */,
-				5E134F5B24D54897004DE219 /* WelyAnimatedTransitioning.swift in Sources */,
-				5E134F5824D54897004DE219 /* WelyBaseAnimator.swift in Sources */,
-				5E134F5424D54897004DE219 /* WelyPresentationController.swift in Sources */,
+				5E134F5B24D54897004DE219 /* AnimatedTransitioning.swift in Sources */,
+				5E34ADEC24DB9DA000104BED /* PullToDismissInteractive.swift in Sources */,
+				5E134F5824D54897004DE219 /* BaseAnimator.swift in Sources */,
+				5E134F5424D54897004DE219 /* PresentationController.swift in Sources */,
 				5E134F5A24D54897004DE219 /* ShiftInConfiguration.swift in Sources */,
-				5EE1CA3B24DAB1AB00DFFEE4 /* PresentAndDismissTransition.swift in Sources */,
 				5E134F0F24D54725004DE219 /* ViewController.swift in Sources */,
 				5E83EE1124D959E300291B9D /* PullToDismissAnimator.swift in Sources */,
 				5E134F5C24D54897004DE219 /* SlideInConfiguration.swift in Sources */,
-				5E134F5924D54897004DE219 /* WelyBaseConfiguration.swift in Sources */,
+				5E134F5924D54897004DE219 /* BaseConfiguration.swift in Sources */,
 				5E134F5724D54897004DE219 /* FadeInConfiguration.swift in Sources */,
 				5EE1CA2E24DA3FA300DFFEE4 /* NextViewController.swift in Sources */,
 				5E134F5D24D54897004DE219 /* SlideInAnimator.swift in Sources */,
@@ -575,7 +571,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = zhengren.PopularMedicine;
+				PRODUCT_BUNDLE_IDENTIFIER = com.modelstyle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -595,7 +591,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = zhengren.PopularMedicine;
+				PRODUCT_BUNDLE_IDENTIFIER = com.modelstyle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;

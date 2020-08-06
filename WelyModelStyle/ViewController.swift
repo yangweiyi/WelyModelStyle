@@ -9,7 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-    var welyBaseAntion: WelyBaseAnimator?
+    var welyBaseAntion: BaseAnimator?
 
     lazy var centButton: UIButton = {
         let centBtn = UIButton(type: .custom)
@@ -30,31 +30,20 @@ class ViewController: UIViewController {
             maker.width.equalTo(200)
         }
     }
-
+    
     @objc func parentVCFunc() {
-
-//        var slideCong = SlideInConfiguration()
-//        slideCong.widthForVC = WelyConstants.ContainsSize.fullScreen
-//        slideCong.hightForVC = WelyConstants.ContainsSize.custom(value: 500)
-//        slideCong.directionShow = .bottom
-//        slideCong.directionDimiss = .bottom
-//        slideCong.verticalType = .bottom
-//        slideCong.backgroudStlye = .customDark(alpha: 0.5)
-//        self.welyBaseAntion = WelyBaseAnimator(baseCong: slideCong)
-//        let nextVC =  NextViewController()
-//        self.welyBaseAntion?.prepaerFunc(currentViewController: nextVC)
-//        self.present(nextVC, animated: true, completion: nil)
-        
+        var slideCong = PullToDismissConfiguration()
+        slideCong.widthForVC = WelyConstants.ContainsSize.fullScreen
+        slideCong.hightForVC = WelyConstants.ContainsSize.custom(value: 500)
+        slideCong.directionShow = .bottom
+        slideCong.directionDimiss = .bottom
+        slideCong.verticalType = .bottom
+        slideCong.backgroudStlye = .customDark(alpha: 0.3)
+        self.welyBaseAntion = BaseAnimator(baseCong: slideCong)
         let nextVC  = NextViewController()
-        nextVC.modalPresentationStyle = .custom
-//        nextVC.transitioningDelegate = nextVC
+//        nextVC.modalPresentationStyle = .custom
+        self.welyBaseAntion?.prepaerFunc(currentViewController: nextVC, PullToDismissInteractive(nextVC, nextVC.view))
         self.present(nextVC, animated: true, completion: nil)
-
-//        self.present(nextVC, animated: true) {
-////            nextVC.transitioningDelegate = nextVC
-////            nextVC.pullToDismissInteractive = PullToDismissInteractive(nextVC, nextVC.view)
-//        }
-        
     }
 
 }

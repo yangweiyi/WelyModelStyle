@@ -1,5 +1,5 @@
 //
-//  WelyBaseConfiguration.swift
+//  BaseConfiguration.swift
 //  ZRMedical
 //
 //  Created by ywy on 2020/2/12.
@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 
 // 此处表示 基本控制
-public protocol WelyBaseConfiguration {
+public protocol BaseConfiguration {
     var duration: WelyConstants.Duration {get set}
     var cornerRadius:Double {get set}
     var presentationCurve: WelyConstants.WelyCurve {get set}
@@ -140,11 +140,10 @@ public struct WelyConstants{
             return AnimationCoefficient(damping: damping, velocity: velocity)
         }
     }
-    
 }
+
 // 动画系数设置  阻尼  和  速度
 public struct AnimationCoefficient {
-    
     public var  damping: CGFloat
     public var velocity: CGFloat
     

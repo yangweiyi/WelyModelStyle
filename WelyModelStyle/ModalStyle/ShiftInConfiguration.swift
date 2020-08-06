@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 
 
-public struct ShiftInConfiguration:WelyBaseConfiguration{
+public struct ShiftInConfiguration:BaseConfiguration{
     
     public var duration: WelyConstants.Duration = .medium
     

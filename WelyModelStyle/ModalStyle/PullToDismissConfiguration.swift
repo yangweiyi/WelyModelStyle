@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 
 
-public struct PullToDismissConfiguration:WelyBaseConfiguration,HorizontalAndPortraitType,DefinitionVcFrame{
+public struct PullToDismissConfiguration:BaseConfiguration,HorizontalAndPortraitType,DefinitionVcFrame{
     public var duration: WelyConstants.Duration = .normal
 
     public var cornerRadius: Double = 0.0
@@ -38,7 +38,7 @@ public struct PullToDismissConfiguration:WelyBaseConfiguration,HorizontalAndPort
 
     //弹出方向
     public var  directionShow:WelyConstants.Direction = .bottom
-    public var directionDimiss:WelyConstants.Direction = .bottom
+    public var  directionDimiss:WelyConstants.Direction = .bottom
     // 动画  阻尼
     public var animationCeffion:WelyConstants.Animationness = .none
 

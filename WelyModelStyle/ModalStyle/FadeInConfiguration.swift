@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-public struct FadeInConfiguration:WelyBaseConfiguration,HorizontalAndPortraitType,DefinitionVcFrame{
+public struct FadeInConfiguration:BaseConfiguration,HorizontalAndPortraitType,DefinitionVcFrame{
     
     public var duration: WelyConstants.Duration = .normal
     

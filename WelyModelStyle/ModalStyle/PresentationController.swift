@@ -1,5 +1,5 @@
 //
-//  WelyPresentationController.swift
+//  PresentationController.swift
 //  ZRMedical
 //
 //  Created by ywy on 2020/2/12.
@@ -10,16 +10,16 @@ import Foundation
 import UIKit
 import SnapKit
 
-class WelyPresentationController: UIPresentationController {
+class PresentationController: UIPresentationController {
 
-    fileprivate var baseCong: WelyBaseConfiguration
+    fileprivate var baseCong: BaseConfiguration
     // 自定义背景
     fileprivate var dimmingView: UIView = UIView()
     // 模糊效果
     fileprivate var blurView: UIVisualEffectView = UIVisualEffectView()
 
     // 初始化  增加自定义参数
-    init(presentedViewController: UIViewController, presenting presentingViewController: UIViewController?, baseConfig: WelyBaseConfiguration) {
+    init(presentedViewController: UIViewController, presenting presentingViewController: UIViewController?, baseConfig: BaseConfiguration) {
         self.baseCong = baseConfig
         super.init(presentedViewController: presentedViewController, presenting: presentingViewController)
         presentedViewController.view.layer.masksToBounds = true
@@ -86,7 +86,7 @@ class WelyPresentationController: UIPresentationController {
     }
 
     // 设置view 的 起始点
-    fileprivate func align(frame: inout CGRect, baseCong: WelyBaseConfiguration) {
+    fileprivate func align(frame: inout CGRect, baseCong: BaseConfiguration) {
 
         let viewSize = containerView!.frame.size
 
@@ -157,7 +157,7 @@ class WelyPresentationController: UIPresentationController {
 }
 
 // 设置不同类型frame的大小
-extension WelyPresentationController {
+extension PresentationController {
 
     fileprivate func setFrameForShiftIn(config: ShiftInConfiguration) -> CGRect {
         var shiftInFrame: CGRect = .zero
@@ -196,7 +196,7 @@ extension WelyPresentationController {
     }
 }
 
-extension WelyPresentationController {
+extension PresentationController {
 
     fileprivate func setUpblurViewfunc() {
 
